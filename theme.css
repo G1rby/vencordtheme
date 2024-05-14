@@ -143,6 +143,19 @@ div[class^='wordmarkWindows'] svg {
 	display: none;
 }
 
+div[class^='wordmarkWindows']::after {
+	content: 'Midnight';
+	display: block;
+	position: relative;
+	width: 200px;
+	height: 16px;
+	line-height: 16px;
+	font-family: var(--font-headline);
+	font-size: 10px;
+	font-weight: 600;
+	color: var(--text-5);
+}
+
 .theme-dark {
 	--activity-card-background: var(--primary-700);
 	--android-navigation-bar-background: var(--primary-830);
