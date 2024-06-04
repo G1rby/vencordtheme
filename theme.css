@@ -50,39 +50,39 @@
 }
 
 /* modify colors */
-.sidebar_ded4b5 .container__590e2 /* channel list */,
-.privateChannels__93473 /* dms list */,
-.panels__58331 .container_ca50b9 /* user panel inner */,
-.container_b2ce9c /* member list */,
-.members__9f47b /* member list inner */,
+.sidebar_e031be .container__7e23c /* channel list */,
+.privateChannels__9b518 /* dms list */,
+.panels__58331 .container_debb33 /* user panel inner */,
+.container_f79ab4 /* member list */,
+.members__573eb /* member list inner */,
 .member_aa4760 /* member list members */,
-.expandedFolderBackground__1bec6 /* expanded folder bg */,
+.expandedFolderBackground_b1385f /* expanded folder bg */,
 .folder__17546 /* folder circle when expanded */,
-.searchResultsWrap__9f374 /* search results */,
-.searchHeader__19d87 /* search results header */,
-.chat__52833.container_d3a736 /* message requests */ {
+.searchResultsWrap__2e184 /* search results */,
+.searchHeader__4d70e /* search results header */,
+.chat__52833.container_d4d35b /* message requests */ {
 	background: var(--bg-4);
 }
-.folderIconWrapper__72239 /* closed folder */ {
+.folderIconWrapper__11165 /* closed folder */ {
 	background: var(--bg-4) !important;
 }
 .chat__52833 /* chat + member list */,
-.sidebar_ded4b5 /* channel sidebar */
-.privateChannels__93473 .scroller__4b984 /* dms list inner */ {
+.sidebar_e031be /* channel sidebar */
+.privateChannels__9b518 .scroller__89969 /* dms list inner */ {
 	background: none;
 }
 
 /* separate header bar */
-.title_b7d661.themed_b152d4 /* remove bg */ {
+.title_d4ba1a.themed_b152d4 /* remove bg */ {
 	background: none;
 }
-.searchResultsWrap__9f374 /* allow overflow */ {
+.searchResultsWrap__2e184 /* allow overflow */ {
 	overflow: visible;
 }
 .container__93316::before /* main chat */,
-.membersWrap__90226::before /* member list */,
-.searchResultsWrap__9f374::before /* search results */,
-.profilePanel__12596::before /* dm profile */ {
+.membersWrap__5ca6b::before /* member list */,
+.searchResultsWrap__2e184::before /* search results */,
+.profilePanel_e2cafe::before /* dm profile */ {
 	content: '';
 	position: absolute;
 	margin-top: -48px;
@@ -93,48 +93,48 @@
 }
 
 /* add spacing */
-.content__4bf10 /* outside edges */ {
+.content__76dcf /* outside edges */ {
 	margin: 0 var(--spacing) var(--spacing) 0;
 }
-.sidebar_ded4b5 /* channel list and user panel */,
-.content__1a4fe /* between chat and member list */ {
+.sidebar_e031be /* channel list and user panel */,
+.content__01e65 /* between chat and member list */ {
 	gap: var(--spacing);
 }
-.sidebar_ded4b5 /* channel list and chat */ {
+.sidebar_e031be /* channel list and chat */ {
 	margin-right: var(--spacing);
 }
-.resizeHandle-PBRzPC /* pretend to be a margin */ {
+.resizeHandle_cc9d34 /* pretend to be a margin */ {
 	width: var(--spacing);
 }
-.wrapper-1gVUIN.fullScreen-KhZZcz /* fullscreen vc */ {
+.wrapper__6bf2d.fullScreen_b3f0af /* fullscreen vc */ {
 	margin-top: var(--spacing);
 }
 
 /* add rounded corners */
-.container__590e2 /* channel list */,
+.container__7e23c /* channel list */,
 .panels__58331 /* user panels */,
-.privateChannels__93473 /* dms list */,
-.container__5c7e7 /* friends page */,
-.applicationStore_fc7d76 /* nitro page */,
-.container_d3a736 /* message requests */,
+.privateChannels__9b518 /* dms list */,
+.container_bd15da /* friends page */,
+.applicationStore__444b9 /* nitro page */,
+.container_d4d35b /* message requests */,
 .shop_b31ed2 /* discord shop */,
-.container_a87c5e /* family center */ {
+.container_ec90d4 /* family center */ {
 	border-radius: var(--roundness);
 	overflow: hidden;
 }
 .container__93316 /* main chat */,
-.chatContent__5dca8 /* main chat inner */,
-.container_b2ce9c /* members list */,
-.members__9f47b /* members list inner */,
-.searchResultsWrap__9f374 /* search results */ {
+.chatContent_f087cb /* main chat inner */,
+.container_f79ab4 /* members list */,
+.members__573eb /* members list inner */,
+.searchResultsWrap__2e184 /* search results */ {
 	border-radius: 0 0 var(--roundness) var(--roundness);
 }
 
 /* extra top margin for macos and custom clients */
-.base__3e6af {
+.base_c0676e {
 	margin-top: var(--spacing);
 }
-.platform-win .base__3e6af {
+.platform-win .base_c0676e {
 	margin-top: 0;
 }
 
